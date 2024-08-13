@@ -31,6 +31,11 @@
 }
 
 /* nav */
+.nav a{
+    padding: 12px;
+}
+
+
 .nav-img{
     /* width 有加上 col 的 padding 左右 px */
     padding: 12px 0px 12px 0px;
@@ -42,7 +47,7 @@
     font-size: 20px;
 }
 
-@media (max-width:576px){
+@media (max-width:787px){
     .nav-list{
         width: 100%;
 
@@ -59,7 +64,6 @@
 }
 
 /* header */
-
 .title-header{
     height: auto;
     padding: 296px 0px;
@@ -88,7 +92,7 @@
     }
 }
 
-@media (max-width:576px){
+@media (max-width:599px){
     .bg-header{
         height: 396px;
     }
@@ -167,6 +171,3 @@
         }
     }
 }
-
-
-
