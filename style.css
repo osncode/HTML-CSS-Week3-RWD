@@ -13,11 +13,11 @@
 }
 
 /* background */
-.bg-nav{
+.bg-header{
     background: var(--primary);
 }
 
-.bg-header{
+.bg-banner{
     background-image: url("img/home-header.png");
     height: 787px;
     background-repeat: no-repeat;
@@ -37,36 +37,36 @@
     padding: 0px 12px;
 }
 
-/* nav */
+/* header */
 .container-full{
     max-width: 1320px;
     padding: 0px 12px;
     margin: 0 auto;
 }
 
-.nav-content{
+.header-content{
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-img img{
+.header-img img{
     padding: 12px 12px 12px 0px;
     width: 80px; 
 }
 
-.nav-list .item{
+.header-list .item{
     text-align: center;
     font-size: 20px;
     transition: 0.5s;
     margin-left: 52px;
 }
 
-.nav-list .item:hover{
+.header-list .item:hover{
     font-weight: bold;
 }
 
 @media (max-width:768px){
-    .nav-list .item{
+    .header-list .item{
          margin-left: 0px;
     }
 }
@@ -75,18 +75,18 @@
     .container-full{
         padding: 0px;
     }
-    .nav-content{
+    .header-content{
         flex-direction: column;
         align-items: start;
     }
-    .nav-img img{
+    .header-img img{
         padding: 12px;
     }
-    .nav-list{
+    .header-list{
         flex-wrap:wrap;
         width: 100%;
     }
-    .nav-list .item{
+    .header-list .item{
             font-size: 16px;
             border: 1px solid #FFF;
             padding: 12px 0px 12px 0px;
@@ -94,13 +94,13 @@
     }
 }
 
-/* header */
-.title-header{
+/* banner */
+.title-banner{
     height: auto;
     padding: 296px 0px;
 }
 
-.title-header p{
+.title-banner p{
     font-size: 36px;
     color:var(--secondary);
 }
@@ -112,28 +112,28 @@
     margin-bottom: 10px;
 }
 
-.title-header a{
+.title-banner a{
     background: #AA0601;
     padding: 6px 12px;
     transition: 0.5s;
     display: inline-block;
 }
-.title-header a:hover{
+.title-banner a:hover{
     font-weight: bold;
 }
 
 @media (max-width:992px){
-    .bg-header{
+    .bg-banner{
         background-image: url("img/home-header-sm.png");
     }
 }
 
 @media (max-width:599px){
-    .bg-header{
+    .bg-banner{
         height: 396px;
     }
-    .header{
-        .title-header{
+    .banner{
+        .title-banner{
             padding: 144px 0px;
             .h1{
                 font-size: 24px;
